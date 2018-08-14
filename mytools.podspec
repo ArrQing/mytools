@@ -12,7 +12,9 @@ Pod::Spec.new do |s|
   s.author       = { 'YY' => '3297509752@qq.com' }
   s.platform     = :ios, '8.0'
   s.source       = { :git => 'https://github.com/ArrQing/mytools.git', :tag => s.version }
-  s.source_files = 'YYTool/YYTool/YYToolBase/**/*.{h,m}'
+  # s.source_files = 'YYTool/YYTool/YYToolBase/**/*.{h,m}'
+
+  s.source_files = 'YYTool'
 
   s.requires_arc = true
 
