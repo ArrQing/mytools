@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'https://github.com/ArrQing/mytools.git', :tag => s.version }
   # s.source_files = 'YYTool/YYTool/YYToolBase/**/*.{h,m}'
 
-  s.source_files = 'YYTool'
+  s.source_files = 'YYTool/YYTool/**/*.{h,m}'
 
   s.requires_arc = true
 
